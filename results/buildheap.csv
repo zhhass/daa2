@@ -1,0 +1,17 @@
+workload,variant,structure,n,time_ms,steps,moves,comparisons
+B,insert-random,MinHeap,100,0.001,194,100,194
+B,buildHeap-random,MinHeap,100,0.001,234,66,184
+B,insert-descending,MinHeap,100,0.001,480,480,480
+B,buildHeap-descending,MinHeap,100,0.001,240,96,190
+B,insert-random,MinHeap,1000,0.007,2232,1239,2232
+B,buildHeap-random,MinHeap,1000,0.007,2357,741,1857
+B,insert-descending,MinHeap,1000,0.013,7987,7987,7987
+B,buildHeap-descending,MinHeap,1000,0.007,2482,992,1982
+B,insert-random,MinHeap,10000,0.179,22593,12603,22593
+B,buildHeap-random,MinHeap,10000,0.129,23740,7438,18740
+B,insert-descending,MinHeap,10000,0.164,113631,113631,113631
+B,buildHeap-descending,MinHeap,10000,0.032,24982,9992,19982
+B,insert-random,MinHeap,100000,1.539,227662,127675,227662
+B,buildHeap-random,MinHeap,100000,1.177,238424,74241,188424
+B,insert-descending,MinHeap,100000,2.455,1468946,1468946,1468946
+B,buildHeap-descending,MinHeap,100000,0.312,249978,99990,199978
